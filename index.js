@@ -10,7 +10,7 @@ module.exports = function cap_plugin(md) {
       let title = attrs[2][1]
       let src = attrs[0][1]
       let alt = tokens[idx].content
-      return `<figure><img src="${src}" alt="${alt}" title="${title}" /><figcaption align="center"><strong>${title}</strong></figcaption></figure>`
+      return `<figure><img src="${src}" alt="${alt}" title="${title}" /><figcaption align="center"><small>${title}</small></figcaption></figure>`
     }
     return old(tokens, idx, options, env, self)
   }
