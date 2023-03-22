@@ -20,7 +20,7 @@ $ pnpm add -D @andatoshiki/markdown-it-image-caption
 ## Usage
 
 ```markdown
-![some alt text](<your-image-path> "your caption here")
+![some alt text](your-image-path 'your caption here')
 ```
 
 The above grammar would render `your caption here` as the image caption in centered and small text font below the image.

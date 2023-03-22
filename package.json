@@ -6,9 +6,21 @@
   "repository": "git@github.com:lolilab/markdown-it-image-caption.git",
   "author": "Anda Toshiki, LoliLab <hello@toshiki.dev>",
   "license": "MIT",
-  "keywords": ["markdown", "markdown-it", "markdown-it-plugin", "markdown-it-image-caption", "image-caption", "caption", "blogging"],
+  "keywords": [
+    "markdown",
+    "markdown-it",
+    "markdown-it-plugin",
+    "markdown-it-image-caption",
+    "image-caption",
+    "caption",
+    "blogging"
+  ],
   "private": false,
+  "scripts": {
+    "lint": "prettier --write ."
+  },
   "devDependencies": {
-    "markdown-it": "^13.0.1"
+    "markdown-it": "^13.0.1",
+    "prettier": "^2.8.6"
   }
 }
